@@ -1,0 +1,6 @@
+.footer {
+  background-color: var(--secondary-color);
+  color: #eee;
+  text-align: center;
+  line-height: 1.9em;
+}

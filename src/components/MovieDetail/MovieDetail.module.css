@@ -1,0 +1,58 @@
+.movie-section {
+  display: flex;
+  padding: 3rem 2rem;
+  color: #fff;
+}
+
+.section-left {
+  flex: 2;
+  line-height: 1.2;
+  padding-right: 2rem;
+}
+
+.section-left .movie-title {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.section-left .movie-rating {
+  color: var(--font-secondary);
+  margin-bottom: 2rem;
+}
+
+.section-left .movie-rating span {
+  margin-left: 2rem;
+}
+
+.section-left .movie-rating span:first-child {
+  margin-left: 0;
+}
+
+.section-left .movie-plot {
+  margin-bottom: 2rem;
+}
+
+.section-left .movie-info {
+  margin-top: 1rem;
+}
+.section-left .movie-info tr {
+  text-align: left;
+}
+
+.section-left .movie-info tr th {
+  padding-right: 2rem;
+}
+
+.section-left .movie-info tr th,
+.section-left .movie-info tr td {
+  padding-bottom: 1rem;
+}
+
+.section-left .movie-info tr td {
+  color: var(--font-secondary);
+}
+
+.section-right img {
+  width: 20vw;
+  height: 80vh;
+}
